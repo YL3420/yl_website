@@ -3,7 +3,7 @@ import { BrowserRouter, Link, NavLink } from 'react-router-dom'
 import Card from './Card.jsx'
 import orie_img from '../assets/images/orie_img.png'
 import pacman_proj from '../assets/images/pacman_proj.png'
-import tsp_img from '../assets/images/TSP_img.png'
+import tsp_img from '../assets/images/tsp_img.png'
 import projects from '../assets/texts/projects.json'
 
 
