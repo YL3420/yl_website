@@ -1,0 +1,21 @@
+[
+    {
+        "title": "Metaheuristic for Exam Timetabling Problem at universities",
+        "tags": "Operations Research, Greedy, Simulated Annealing",
+        "description": "Implementing research insights using ORIE ideas to solve the infamous NP-hard exam timetabling problem for Cornell University.",
+        "banner_src": "orie_img"
+        
+    },
+    {
+        "title": "Pacman with GUI, ADT's, and Dijkstra's",
+        "tags": "Java, Data Structures, Sorting Algorithms",
+        "description": "Dijkstra's helps implement the shortest path algorithm for the ghost navigation in this game enabled by Java's GUI library.",
+        "banner_src": "pacman_proj"
+    },
+    {
+        "title": "Food Delivery Program Using Minimum Spanning Tree",
+        "tags": "Operations Research, Greedy, Data Structures, API's",
+        "description": "Traveling Salesman simplified. Using MST, find the most cost-efficient way to deliver food to all destinations given a starting point, factoring in distance, elevation change, congestion, and other real world data using the Google Maps API",
+        "banner_src": "tsp_img"
+    }
+]
