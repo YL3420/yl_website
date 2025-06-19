@@ -30,7 +30,7 @@ const Navbar = ({copyText}) => {
 
                 <div className='md:ml-auto'>
                     <div className='flex space-x-7'>
-                        <NavLink to='/about-me' className='hover:text-white rounded-md px-3 py-2'>
+                        <NavLink to='/file-view/resume_yl_1.pdf' className='hover:text-white rounded-md px-3 py-2'>
                             View resume
                         </NavLink>
                         <NavLink to='/projects' className='hover:text-white rounded-md px-3 py-2'>

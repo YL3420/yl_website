@@ -6,6 +6,8 @@ import './index.css';
 import HomePage from './pages/HomePage.jsx'
 import MainLayout from './layouts/MainLayout.jsx';
 import NotFoundPage from './pages/NotFoundPage.jsx';
+import FileView  from './pages/FileView.jsx';
+// import { FlatESLint } from 'eslint/use-at-your-own-risk';
 
 const App = () => {
 
@@ -19,6 +21,7 @@ const App = () => {
       <Route path='/' element={<MainLayout copyText={copyText} />}>
         <Route index element={<HomePage />} />
         <Route path='*' element={<NotFoundPage />} />
+        <Route path='/file-view/:filename' element={<FileView />} />
       </Route>
     )
   );
