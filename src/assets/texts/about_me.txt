@@ -1,1 +1,2 @@
-My name is Yanchun Lai
+I am a Computer Science student at Cornell University, hoping to continue my studies in graduate school. I have a strong interest in studying numeral 
+analysis and scientific computing in the sciences, as well as solving NP-hard problems. 

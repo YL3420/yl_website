@@ -1,8 +1,8 @@
 [
     {
         "title": "Minimum Spanning Tree in Java",
-        "tags": "Operations Research, Greedy, Simulated Annealing",
-        "description": "This is a test project and this text is a placeholder",
+        "tags": "Operations Research, Data Structure, Greedy",
+        "description": "Find the most cost-efficient way to branch out to all vertices starting from a root by constructing a minimum spanning tree. Implemented data structures like MinHeap to allow the algorithm to sort the edges with a priority ranking.",
         "banner_src": "orie_img",
         "demo_link": "https://github.com/YL3420/minimum-spanning-tree-java",
         "repo_link": "https://github.com/YL3420/minimum-spanning-tree-java"

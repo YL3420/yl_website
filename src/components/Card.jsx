@@ -1,8 +1,18 @@
 import React from 'react'
 import { BrowserRouter, Link, NavLink } from 'react-router-dom'
+import { useState } from 'react';
 
 
 const Card = ({ title, tags, description, banner, banner_name='banner', demo_link='no_demo', repo_link='no_repo' }) => {
+    const [expandDescription, setExpandDescription] = useState(false);
+    const longDescriptionThreshold = 300;
+    let dynamicDescription = description;
+    const longDescription = (description.length > longDescriptionThreshold) ? true : false;
+
+    if(!expandDescription && longDescription){
+        dynamicDescription = description.trim().slice(0, longDescriptionThreshold) + '.....';
+    }
+
     return (
         <div className='bg-gray-800 rounded-md relative flex flex-col'>
             <div className='pt-4 px-4 flex flex-col'>
@@ -13,10 +23,16 @@ const Card = ({ title, tags, description, banner, banner_name='banner', demo_lin
 
                 <div className='mb-2'>
                     <p className='text-zinc-500'>
-                        { description.trim().length > 200 ?
-                            description.trim().slice(0, 200) + '...' : description }
+                        { dynamicDescription }
                     </p>  
                 </div>
+
+                {   longDescription ? 
+                    <button onClick={() => setExpandDescription(!expandDescription)}
+                        className='text-zinc-500 hover:text-white'>
+                        { expandDescription ? 'show less' : 'show more' }
+                    </button> : <></>
+                }
 
             </div>
 
