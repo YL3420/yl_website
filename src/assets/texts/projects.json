@@ -11,7 +11,7 @@
         "title": "Scheduling Project",
         "tags": "Operations Research, Greedy, Simulated Annealing",
         "description": "Solving the exam timetabling problem for university registrar using a variation of Greedy Randomized Adaptive Search Procedure. The method combines elements of randomness and prioritzation of exams with high scheduling difficulty. This construction phase is followed by an iterative local search phase with hill climbing step, simulated annealing, etc.",
-        "banner_src": "pacman_proj",
+        "banner_src": "tsp_img",
         "demo_link": "",
         "repo_link": "https://github.com/YL3420/final_scheduling_project"
     },
@@ -19,7 +19,7 @@
         "title": "Pacman with Java",
         "tags": "Data Structures, Shortest Path, Java",
         "description": "Building Pacman using Java GUI library and data structures. Learned about implementing a variation of Breadth First Search, Dijkstra's Algorithm, to implement the ghosts' behavior in the Pacman game.",
-        "banner_src": "tsp_img",
+        "banner_src": "pacman_proj",
         "demo_link": "",
         "repo_link": ""
     }
