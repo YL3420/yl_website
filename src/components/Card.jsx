@@ -13,7 +13,8 @@ const Card = ({ title, tags, description, banner, banner_name='banner', demo_lin
 
                 <div className='mb-2'>
                     <p className='text-zinc-500'>
-                        { description }
+                        { description.trim().length > 200 ?
+                            description.trim().slice(0, 200) + '...' : description }
                     </p>  
                 </div>
 
