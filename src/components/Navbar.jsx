@@ -33,7 +33,7 @@ const Navbar = ({copyText}) => {
                         <NavLink to='/file-view/resume_yl_1.pdf' className='hover:text-white rounded-md px-3 py-2'>
                             View resume
                         </NavLink>
-                        <NavLink to='/projects' className='hover:text-white rounded-md px-3 py-2'>
+                        <NavLink to='/#projects' className='hover:text-white rounded-md px-3 py-2'>
                             Projects
                         </NavLink>
                     </div>
