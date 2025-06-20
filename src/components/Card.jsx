@@ -21,20 +21,27 @@ const Card = ({ title, tags, description, banner, banner_name='banner', demo_lin
 
             <div className='mt-auto p-4'>
                 <div className='flex flex-c``ol gap-4 lg:flex-row mb-4'>
-                <Link
-                    to={ demo_link }
-                    className='h-[36px] bg-indigo-500 hover:bg-indigo-600 text-white px-4 py-2 rounded-lg text-center text-sm'
-                >
-                    Demo
-                </Link>
+                    {   demo_link ?
+                        <Link
+                            to={ demo_link }
+                            target={'_blank'}
+                            className='h-[36px] bg-indigo-500 hover:bg-indigo-600 text-white px-4 py-2 rounded-lg text-center text-sm'
+                        >
+                            Demo
+                        </Link> : <></>
+                    }
 
-                <Link
-                    to={ repo_link }
-                    target={'_blank'}
-                    className='h-[36px] bg-indigo-500 hover:bg-indigo-600 text-white px-4 py-2 rounded-lg text-center text-sm'
-                >
-                    Github
-                </Link>
+                    {
+                        repo_link ?
+                        <Link
+                            to={ repo_link }
+                            target={'_blank'}
+                            className='h-[36px] bg-indigo-500 hover:bg-indigo-600 text-white px-4 py-2 rounded-lg text-center text-sm'
+                        >
+                            Github
+                        </Link> : <></>
+                    }
+
                 </div>
 
                 <div className='border border-t-[0.5px] border-zinc-500 mb-5'></div>

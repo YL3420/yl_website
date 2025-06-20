@@ -1,20 +1,26 @@
 [
     {
-        "title": "Test Project 1",
+        "title": "Minimum Spanning Tree in Java",
         "tags": "Operations Research, Greedy, Simulated Annealing",
         "description": "This is a test project and this text is a placeholder",
-        "banner_src": "orie_img"
+        "banner_src": "orie_img",
+        "demo_link": "https://github.com/YL3420/minimum-spanning-tree-java",
+        "repo_link": "https://github.com/YL3420/minimum-spanning-tree-java"
     },
     {
         "title": "Test Project 2",
         "tags": "Java, Data Structures, Sorting Algorithms",
         "description": "This is a test project and this text is a placeholder",
-        "banner_src": "pacman_proj"
+        "banner_src": "pacman_proj",
+        "demo_link": "",
+        "repo_link": ""
     },
     {
         "title": "Test Project 3",
         "tags": "Operations Research, Greedy, Data Structures, API's",
         "description": "This is a test project and this text is a placeholder",
-        "banner_src": "tsp_img"
+        "banner_src": "tsp_img",
+        "demo_link": "",
+        "repo_link": ""
     }
 ]

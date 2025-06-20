@@ -46,7 +46,9 @@ const Cards = () => {
                     title={p.title}
                     tags={p.tags}
                     description={p.description}
-                    banner={ sources[p.banner_src] }/>
+                    banner={ sources[p.banner_src] }
+                    demo_link={p.demo_link}
+                    repo_link={p.repo_link} />
                 ))}
 
                 </div>
